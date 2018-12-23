@@ -61,6 +61,7 @@ Host someinternalhost
 ## В процессе сделано:
  - Создан сервер bastion и сервер someinternalhost
  - установлен vpn сервер pritunl
+ - sudo reboot on bastion-host
 
 ## Как запустить проект:
  - Например, запустить команду X в директории Y
