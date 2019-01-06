@@ -22,14 +22,14 @@ PR checklist
 
 HW 5
 Выполнено ДЗ № 5
-- [ ] Основное ДЗ 
+- [ ] Основное ДЗ
 Исследовать способ подключения к someinternalhost в одну
 команду
 
 ssh -i ~/.ssh/appuser -J appuser@35.189.240.68 appuser@10.132.0.3
 ssh -i ~/.ssh/appuser -A -t appuser@35.189.240.68 ssh 10.132.0.3
 
-bastion_IP = 35.189.240.68 
+bastion_IP = 35.189.240.68
 someinternalhost_IP = 10.132.0.3
 
  - [ ] Задание со *
@@ -77,7 +77,7 @@ HW 6
 Выполнено ДЗ № 6
 
     [+ ] Основное ДЗ
-    
+
 
 В процессе сделано:
 
