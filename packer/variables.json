@@ -1,0 +1,10 @@
+{
+    "project_id": "infra-226415",
+    "source_image_family": "ubuntu-1604-lts",
+    "machine_type": "f1-micro",
+    "image_description": "base image for reddit app with services installed",
+    "disk_type": "pd-standard",
+    "disk_size": "10",
+    "network": "default",
+    "tags": "puma-server"
+  }
