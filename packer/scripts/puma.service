@@ -1,0 +1,17 @@
+[Unit]
+Description=Puma Server
+Requires=mongod.service
+
+[Service]
+SyslogIdentifier=rediit-app
+User=gcp-user
+Group=gcp-user
+PIDFile=/home/gcp-user/reddit/puma-server.pid
+WorkingDirectory=/home/gcp-user/reddit
+
+ExecStart=/bin/bash -ce "puma -d"
+ExecStop=/bin/kill -s QUIT $MAINPID
+Restart=OnFailure
+
+[Install]
+WantedBy=multi-user.target
