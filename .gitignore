@@ -1,0 +1,7 @@
+varibles.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+application_default_credentials.json
