@@ -19,7 +19,7 @@
             "source_image_family": "{{user `source_image_family`}}",
             "disk_type": "{{user `disk_type`}}",
             "disk_size": "{{user `disk_size`}}",
-            "zone": "europe-north1-b",
+            "zone": "europe-west1-b",
             "network": "{{user `network`}}",
             "ssh_username": "gcp-user",
             "machine_type": "{{user `machine_type`}}",

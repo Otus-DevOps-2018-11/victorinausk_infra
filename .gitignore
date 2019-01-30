@@ -5,3 +5,4 @@ varibles.json
 *.tfvars
 .terraform/
 application_default_credentials.json
+terraform.tfvars
