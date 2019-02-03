@@ -215,3 +215,18 @@ appuser@devops-VirtualBox:~/otus/victorinausk_infra/ansible$ ansible all -m ping
     "changed": false,
     "ping": "pong"
 }
+
+
+HW 11
+Выполнено ДЗ № 11
+
+    [+ ] Основное ДЗ
+
+В процессе сделано:
+ - Созданы ansible playbook:
+
+  - reddit_app_one_play
+  - reddit_app_multiple_plays
+  - app.yml, db.yml, deploy.yml  Плейбуки встроены в `site.yml` для последовательной установки Reddit.
+  - packer_db.yml, packer_app.yml созданы для использовании в PACKER
+  - packer/app.json , packer/db.json обновлены для использования ansible playbook в место баш скриптов
