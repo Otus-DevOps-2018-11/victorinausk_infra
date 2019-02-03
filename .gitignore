@@ -6,3 +6,4 @@ varibles.json
 .terraform/
 application_default_credentials.json
 terraform.tfvars
+*.retry
