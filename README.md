@@ -175,6 +175,7 @@ PR checklist
     [ +] Выставил label с номером домашнего задания
     [ +] Выставил label с темой домашнего задания
 
+HW 9
 Выполнено ДЗ № 9
 
     [+ ] Основное ДЗ
@@ -189,3 +190,28 @@ PR checklist
 
     [ +] Выставил label с номером домашнего задания
     [ +] Выставил label с темой домашнего задания
+
+HW 10
+Выполнено ДЗ № 10
+
+    [+ ] Основное ДЗ
+
+В процессе сделано:
+
+- Установлен Ansible для выполнения различных команд
+
+- Созданы файлы invertory (`yml`,` json`)
+- Создан конфигурационный файл `ansible.cfg` со значениями по умолчанию для проекта
+- Создан ansible playbook, описанный в `clone.yml`, для проверки поведения ansible для повторяющихся задач.
+
+Задание со *:
+
+appuser@devops-VirtualBox:~/otus/victorinausk_infra/ansible$ ansible all -m ping -i inventory.json
+34.76.27.35 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+35.189.240.68 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
