@@ -242,6 +242,6 @@ HW 12
   - созданы ansible-роли app, db, users (создаются пользователи для {prod,stage} окружений)
   - созданы окружения {prod,stage}
   - организован каталог ansible
-        плейбуки перенесены в $GIT_REPO_ROOT/ansible/playbooks
-        прочие файлы перенесены в $GIT_REPO_ROOT/ansible/old
-   - созданы файл конфигурации и инвентори файлы (ini, yml, json*) для ansible
+        плейбуки перенесены в /ansible/playbooks
+        прочие файлы перенесены в /ansible/old
+  - созданы файл конфигурации и инвентори файлы (ini, yml, json*) для ansible
