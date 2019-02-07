@@ -230,3 +230,18 @@ HW 11
   - app.yml, db.yml, deploy.yml  Плейбуки встроены в `site.yml` для последовательной установки Reddit.
   - packer_db.yml, packer_app.yml созданы для использовании в PACKER
   - packer/app.json , packer/db.json обновлены для использования ansible playbook в место баш скриптов
+
+HW 12
+Выполнено ДЗ № 12
+
+    [+ ] Основное ДЗ
+
+В процессе сделано:
+
+
+  - созданы ansible-роли app, db, users (создаются пользователи для {prod,stage} окружений)
+  - созданы окружения {prod,stage}
+  - организован каталог ansible
+        плейбуки перенесены в /ansible/playbooks
+        прочие файлы перенесены в /ansible/old
+  - созданы файл конфигурации и инвентори файлы (ini, yml, json*) для ansible

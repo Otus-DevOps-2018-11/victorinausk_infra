@@ -7,3 +7,5 @@ varibles.json
 application_default_credentials.json
 terraform.tfvars
 *.retry
+jdauphant.nginx
+vault.key
